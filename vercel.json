@@ -2,6 +2,7 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "version": 2,
   "routes": [
+    { "src": "/google70eeeafd9908cc6b.html", "dest": "/google70eeeafd9908cc6b.html" },
     { "src": "/robots.txt", "dest": "/robots.txt" },
     { "src": "/sitemap.xml", "dest": "/sitemap.xml" },
     { "src": "/favicon.svg", "dest": "/favicon.svg" },
@@ -32,6 +33,13 @@
     {
       "source": "/sitemap.xml",
       "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=86400" }
+      ]
+    },
+    {
+      "source": "/google70eeeafd9908cc6b.html",
+      "headers": [
+        { "key": "Content-Type", "value": "text/html" },
         { "key": "Cache-Control", "value": "public, max-age=86400" }
       ]
     }
