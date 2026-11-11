@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://fahad-ai-ml-engineer.vercel.app/sitemap.xml
