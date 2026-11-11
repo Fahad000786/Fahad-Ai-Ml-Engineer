@@ -10,11 +10,21 @@ export function SEO() {
     image: "https://fahad-ai-ml-engineer.vercel.app/assets/fahadceo.png",
     email: PERSONAL.email,
     telephone: PERSONAL.phone,
+    description:
+      "AI/ML Engineer and Full-Stack Developer based in Lahore, Pakistan. Open to remote roles and relocation worldwide — United States, United Kingdom, Japan, Singapore, UAE, Canada, Europe, and globally.",
     address: {
       "@type": "PostalAddress",
       addressLocality: "Lahore",
       addressRegion: "Punjab",
       addressCountry: "PK",
+    },
+    jobLocation: {
+      "@type": "Place",
+      name: "Worldwide (Remote & On-site)",
+      address: {
+        "@type": "PostalAddress",
+        addressCountry: "Worldwide",
+      },
     },
     knowsAbout: [
       "Artificial Intelligence",
@@ -41,6 +51,9 @@ export function SEO() {
       "Redis",
       "Pandas",
       "NumPy",
+      "International remote work",
+      "Global collaboration",
+      "Relocation worldwide",
     ],
     alumniOf: [
       {
@@ -53,6 +66,20 @@ export function SEO() {
       },
     ],
     sameAs: [PERSONAL.linkedin, PERSONAL.github],
+    contactPoint: [
+      {
+        "@type": "ContactPoint",
+        telephone: PERSONAL.phone,
+        contactType: "customer service",
+        availableLanguage: ["English", "Urdu"],
+      },
+      {
+        "@type": "ContactPoint",
+        email: PERSONAL.email,
+        contactType: "customer service",
+        availableLanguage: ["English", "Urdu"],
+      },
+    ],
   };
 
   return (

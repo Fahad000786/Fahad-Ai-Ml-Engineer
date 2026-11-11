@@ -55,36 +55,44 @@ npm run preview
 
 Vercel will auto-deploy on every push to `main`.
 
-## Getting Indexed by Google (Recruiter Discovery)
+## Getting Indexed by Google (Recruiter Discovery — Pakistan & Globally)
 
-To help recruiters find you via Google search, complete these steps:
+To help recruiters in Pakistan, the **US, UK, Japan, Singapore, UAE, and worldwide** find you via Google search, complete these steps:
 
 ### 1. Verify your site in Google Search Console
 - Go to https://search.google.com/search-console/
 - Add property: `https://fahad-ai-ml-engineer.vercel.app/`
 - Verify ownership (HTML tag or DNS method)
 
-### 2. Submit your sitemap
+### 2. Set geo-targeting for international reach
+- In Google Search Console, go to **Settings** (left sidebar)
+- Under **International targeting**, you can set a geographic target. Since your site targets multiple countries, leave it unlisted (global) and rely on hreflang tags + keywords.
+- Your site already includes `hreflang` tags for `en`, `en-US`, `en-GB`, `en-JP`, `en-SG`, `en-PK`, and `x-default` to signal English-language content to each region.
+
+### 3. Submit your sitemap
 - In Google Search Console, go to **Sitemaps** (left sidebar)
 - Enter: `sitemap.xml`
 - Click **Submit**
 
 This tells Google exactly which pages exist on your site so they can be discovered and crawled.
 
-### 3. Request indexing (for new/updated content)
+### 4. Request indexing (for new/updated content)
 - In Google Search Console, paste your URL in the top search bar
 - Click **Request Indexing** to ask Google to crawl the page sooner
 
-### 4. Monitor indexing status
-- Use the **Pages** report in Search Console to see which pages are indexed
+### 5. Monitor indexing status by region
+- Use the **Pages** report to see which pages are indexed
+- Check the **Performance** report filtered by country (US, UK, JP, SG, PK, etc.) to see where recruiters are finding you
 - Fix any crawling errors reported there
 
 ## SEO Features Included
 - Semantic HTML5 (`<header>`, `<nav>`, `<main>`, `<section>`, `<footer>`)
-- Meta title, description, keywords tailored for AI/ML recruiter searches
+- Meta title, description, keywords tailored for AI/ML recruiter searches (includes USA, UK, Japan, Singapore, UAE, remote/relocation terms)
 - Open Graph & Twitter Card tags (rich link previews on LinkedIn/Twitter)
 - Canonical URL to prevent duplicate content issues
-- JSON-LD `Person` structured data (jobTitle, skills, contact, social profiles, education)
+- **Hreflang tags** for international targeting: `en`, `en-US`, `en-GB`, `en-JP`, `en-SG`, `en-PK`, `x-default`
+- **Visible "Open to global & remote opportunities" badge** in Hero section
+- JSON-LD `Person` structured data (jobTitle, skills, worldwide jobLocation, contact, social profiles, education, international availability)
 - `robots.txt` allowing all crawlers
 - `sitemap.xml` for page discovery
 - Skip-to-content link for accessibility

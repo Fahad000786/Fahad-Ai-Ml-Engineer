@@ -426,6 +426,20 @@ p {
   margin-bottom: 1.5rem;
 }
 
+.intro-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.55rem 1rem;
+  border-radius: 8px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
 .hero h1 {
   margin-bottom: 1rem;
 }

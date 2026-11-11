@@ -1,4 +1,4 @@
-import { Code, Laptop } from "lucide-react";
+import { Laptop, Globe } from "lucide-react";
 import profileImg from "../assets/fahadceo.png";
 import { PERSONAL } from "../data/portfolio";
 
@@ -14,7 +14,10 @@ export function Hero() {
         <div className="hero-grid">
           <div className="hero-content reveal">
             <div className="intro-badge">
-              <Code size={18} strokeWidth={2} />
+              <Globe size={18} strokeWidth={2} />
+              Open to global &amp; remote opportunities
+            </div>
+            <div className="intro-label" style={{ marginBottom: "1.5rem" }}>
               Hello, I'm Muhammad Fahad
             </div>
             <h1 className="reveal">Building Intelligent Solutions with AI &amp; Code</h1>
